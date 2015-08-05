@@ -1,0 +1,137 @@
+body {
+	margin-top: 0em;
+	margin-right: 10em;
+	margin-bottom: 3em;
+	margin-left: 10em;
+	background: SeaShell ;
+}
+
+a {
+	color: FireBrick;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: Gold;
+}
+
+h1, h3, h4, h5, h6 {
+	color: DarkSlateBlue;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+h2 {
+	color: gray;
+}
+
+h1 {
+	line-height: 75%;
+	font-size: 2.5em;
+}
+
+img {
+	vertical-align: middle;
+}
+
+li.attention {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+nav {
+	background-color: Indigo;
+	line-height: 200%;
+	display: block;
+	text-align:center;
+}
+
+nav a {
+	color: BlueViolet;
+	font-weight: bold;
+}
+nav li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 40px;
+}
+
+nav a {
+	color: BlueViolet;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+p em {
+	color: firebrick;
+}
+
+ul {
+	list-style-type: square;
+}
+
+ul.check {
+	line-height: 2em;
+	list-style-image: url(images/green_checkmark_sm.jpg);
+}
+
+ol {
+	list-style-type: upper-alpha;
+}
+
+.center {
+	text-align: center;
+}
+
+.title {
+	color: DarkSlateBlue;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+footer {
+	display: block;
+}
+
+strong {
+	font-style: bold;
+	font-size: 140%;
+	line-height: .5em;
+}
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+/*Print style!*/
+@media print {
+#content p {
+  font-size:11pt;
+  color: black;
+}
+ 
+#content img {
+  display:block;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+}
+ 
+#content ul, li {
+  display:block;
+  page-break-inside:avoid;
+}
+ 
+#header {display:none;}
+#comments {display:none;}
+#sidebar {display:none;}
+#footer {display:none;}
+ 
+.site-description {display:none;}
+.site-title {display:none;}
+ 
+}
+
+
